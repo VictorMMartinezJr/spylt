@@ -234,7 +234,7 @@ body {
       }
     }
 
-    h1 {
+    h2 {
       @apply uppercase text-[20.5vw] leading-[105%] tracking-[-.4vw] ml-[2vw] font-bold;
     }
   }
