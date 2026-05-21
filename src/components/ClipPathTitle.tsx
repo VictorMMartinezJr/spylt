@@ -1,4 +1,18 @@
-const ClipPathTitle = ({ title, color, bg, className, borderColor }) => {
+interface ClipPathTitleProps {
+  title: string;
+  color: string;
+  bg: string;
+  className?: string;
+  borderColor: string;
+}
+
+const ClipPathTitle = ({
+  title,
+  color,
+  bg,
+  className,
+  borderColor,
+}: ClipPathTitleProps) => {
   return (
     <div className="general-title">
       <div
