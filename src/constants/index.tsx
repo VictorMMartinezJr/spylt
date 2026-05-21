@@ -1,3 +1,4 @@
+// Flavor Section
 interface Flavor {
   name: string;
   color: string;
@@ -34,4 +35,17 @@ export const flavorlists: Flavor[] = [
     color: "black",
     rotation: "lg:rotate-[-8deg] rotate-0",
   },
+];
+
+// Nutrition Section
+interface Nutrient {
+  label: string;
+  amount: string;
+}
+export const nutrientLists: Nutrient[] = [
+  { label: "Potassium", amount: "245mg" },
+  { label: "Calcium", amount: "500mg" },
+  { label: "Vitamin A", amount: "176mcg" },
+  { label: "Vitamin D", amount: "5mcg" },
+  { label: "Iron", amount: "1mg" },
 ];
