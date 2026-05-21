@@ -49,3 +49,53 @@ export const nutrientLists: Nutrient[] = [
   { label: "Vitamin D", amount: "5mcg" },
   { label: "Iron", amount: "1mg" },
 ];
+
+// Reviews Section
+interface Card {
+  src: string;
+  rotation: string;
+  name: string;
+  translation?: string;
+}
+export const cards: Card[] = [
+  {
+    src: "/videos/review1.mp4",
+    rotation: "rotate-z-[-10deg]",
+    name: "Madison",
+    translation: "translate-y-[-5%]",
+  },
+  {
+    src: "/videos/review2.mp4",
+    rotation: "rotate-z-[4deg]",
+    name: "Alexander",
+  },
+  {
+    src: "/videos/review3.mp4",
+    rotation: "rotate-z-[-4deg]",
+    name: "Andrew",
+    translation: "translate-y-[-5%]",
+  },
+  {
+    src: "/videos/review4.mp4",
+    rotation: "rotate-z-[4deg]",
+    name: "Bryan",
+    translation: "translate-y-[5%]",
+  },
+  {
+    src: "/videos/review5.mp4",
+    rotation: "rotate-z-[-10deg]",
+    name: "Chris",
+  },
+  {
+    src: "/videos/review6.mp4",
+    rotation: "rotate-z-[4deg]",
+    name: "Devante",
+    translation: "translate-y-[5%]",
+  },
+  {
+    src: "/videos/review7.mp4",
+    rotation: "rotate-z-[-3deg]",
+    name: "Melisa",
+    translation: "translate-y-[10%]",
+  },
+];
