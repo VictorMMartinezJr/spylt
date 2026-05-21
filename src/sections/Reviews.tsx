@@ -83,13 +83,11 @@ const Reviews = () => {
             onMouseLeave={() => handlePause(index)}
           >
             <video
-              ref={(el) => {
-                vdRef.current[index] = el;
-              }}
               src={card.src}
               playsInline
               muted
               loop
+              autoPlay
               className="size-full object-cover"
             />
           </div>
